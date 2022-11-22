@@ -103,7 +103,7 @@ def metrics_fixed_bin_distribution(control, variable, perc_step=5):
     rvalue = lsq_res[2]
     p_slope = lsq_res[3]
 
-    return slope, intercept, sr_distr, p_value, distribution_control_fb, distribution_fb, std_distribution_fb, rvalue, p_slope
+    return slope, intercept, sr_distr, p_value, distribution_control_fb, distribution_fb, std_distribution_fb, rvalue, p_slope, number_of_points_fb
 
 def mixed_distribution(control, variable, controlname, varname, xlimiti=np.nan, ylimiti=np.nan, str_control='', 
                        str_variable='', perc_step=5, title='', str_name=''):
